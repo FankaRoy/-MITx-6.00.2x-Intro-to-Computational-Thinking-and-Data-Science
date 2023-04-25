@@ -1,5 +1,8 @@
-# PART 1
+
 """
+======================================================================================
+Problem 1
+
 One way of transporting cows is to always pick the heaviest cow that will fit onto the spaceship first. This is an example of a greedy algorithm. So if there are only 2 tons of free space on your spaceship, with one cow that's 3 tons and another that's 1 ton, the 1 ton cow will get put onto the spaceship.
 Implement a greedy algorithm for transporting the cows back across space in the function greedy_cow_transport. The function returns a list of lists, where each inner list represents a trip and contains the names of cows taken on that trip.
 Note: Make sure not to mutate the dictionary of cows that is passed in!
@@ -16,8 +19,9 @@ For the second trip, the greedy algorithm first picks Maggie as the heaviest rem
 The final result then is [["Jesse", "Maybel"], ["Maggie", "Callie"]].
 """
 
-# PART 2
-"""
+======================================================================================
+Problem 2
+
 Another way to transport the cows is to look at every possible combination of trips and pick the best one. This is an example of a brute force algorithm.
 
 Implement a brute force algorithm to find the minimum number of trips needed to take all the cows across the universe in the function brute_force_cow_transport. The function returns a list of lists, where each inner list represents a trip and contains the names of cows taken on that trip.
