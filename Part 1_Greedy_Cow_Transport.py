@@ -65,19 +65,3 @@ def greedy_cow_transport(cows, limit=10):
 greedy_cow_transport({'Polaris': 20, 'Milkshake': 75, 'Muscles': 65, 'Louis': 45, 'Clover': 5, 'Patches': 60, 'Lotus': 10, 'Horns': 50, 'Miss Bella': 15, 'MooMoo': 85}, 100)
 greedy_cow_transport({'Rose': 50, 'Dottie': 85, 'Willow': 35, 'Coco': 10, 'Betsy': 65, 'Patches': 12, 'Lilly': 24, 'Buttercup': 72, 'Abby': 38, 'Daisy': 50}, 100)
 greedy_cow_transport({'Rose': 42, 'Starlight': 54, 'Willow': 59, 'Coco': 59, 'Betsy': 39, 'Luna': 41, 'Buttercup': 11, 'Abby': 28}, 120)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
