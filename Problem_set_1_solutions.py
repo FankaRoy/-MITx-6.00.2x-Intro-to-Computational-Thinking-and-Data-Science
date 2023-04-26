@@ -7,6 +7,8 @@ Year: 2020
 # Enter your code for the Greedy Cow Transport here 
 # Problem 1
 
+from ps1 import get_partitions
+
 def greedy_cow_transport(cows, limit=10):
     """
     Uses a greedy heuristic to determine an allocation of cows that attempts to
@@ -95,21 +97,4 @@ def brute_force_cow_transport(cows,limit=10):
     for l in pruned_possibilities:
         if len(l) == min_list_len:
             return l
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
